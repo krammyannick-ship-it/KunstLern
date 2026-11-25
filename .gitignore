@@ -1,0 +1,16 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Node (falls später ein Build dazukommt)
+node_modules/
+package-lock.json
+
+# Unterrichtsvorlagen bleiben bewusst draußen (Rechte der Originaldokumente)
+*.pdf
