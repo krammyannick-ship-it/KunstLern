@@ -5,7 +5,7 @@
 (function(){
 "use strict";
 
-var LS_KEY = "kunst-lernpfad-v1";
+var LS_KEY = "kunst-lernpfad-v2";
 var MODULES = DATA.modules, CARDS = DATA.cards, EX = DATA.exercises, GLOSS = DATA.glossary;
 var DAY = 86400000;
 var BOX_DAYS = [1, 2, 4, 9, 9]; // Abstand bis zur nächsten Wiederholung, je Kasten 1..5
@@ -100,7 +100,9 @@ function renderHome(){
   h += '<section class="hero"><div class="hero-copy">';
   h += '<span class="kicker">Auswendig lernen · Verstehen · Anwenden</span>';
   h += "<h1>Dein Kunst-Wissensgebäude</h1>";
-  h += '<p class="lede">Fünf Module, die aufeinander aufbauen: Vom Werkzeugkasten der <b>Bildmittel</b> über <b>Farbwissen</b> und das <b>Analyse-Schema</b> zum <b>Impressionismus</b> – bis zur echten <b>Musteranalyse (Caillebotte)</b>, in der du alles gleichzeitig anwendest. Jedes Modul schaltet beim Lernen das nächste frei.</p>';
+  var topics = MODULES.map(function(m){ return "<b>"+esc(m.name.split(":")[0])+"</b>"; });
+  var topicText = topics.length > 1 ? topics.slice(0,-1).join(", ") + " und " + topics[topics.length-1] : topics[0];
+  h += "<p class=\"lede\">"+MODULES.length+" Module, die aufeinander aufbauen: "+topicText+". Jedes Modul schaltet beim Lernen das nächste frei.</p>";
   h += "</div><div class=\"overall\">";
   h += '<div class="lvl">Stufe: '+esc(levelName(o.pct))+"</div>";
   h += '<div class="bar"><i style="width:'+o.pctSeen+'%"></i></div><div class="bar-label"><span>Gelernt</span><span>'+o.seen+"/"+o.total+" Karten</span></div>";
@@ -516,7 +518,10 @@ function runBuild(area, e, onBack, closeLabel){
    GLOSSAR
    ============================================================ */
 function renderGlossary(){
-  var h = '<h1>Glossar</h1><p class="lede">Alle Fachbegriffe aus deinen Unterlagen. Begriffe, die in mehreren Modulen vorkommen (z. B. <i>Erscheinungsfarbe</i>: Farbwissen → Impressionismus → Caillebotte), zeigen dir, wie dein Wissen zusammenwächst. Klicken klappt die passenden Karteikarten auf.</p>';
+  var cross = GLOSS.slice().sort(function(a,b){ return (b.also||[]).length-(a.also||[]).length; })[0];
+  var crossMods = [cross.m].concat((cross.also||[]).filter(function(a){ return a!==cross.m; }))
+    .map(function(id){ var x = modById(id); return x? esc(x.name.split(":")[0]) : id; });
+  var h = '<h1>Glossar</h1><p class="lede">Alle Fachbegriffe des Lernpfads. Begriffe, die in mehreren Modulen vorkommen (z. B. <i>'+esc(cross.t)+'</i>: '+crossMods.join(" → ")+'), zeigen dir, wie dein Wissen zusammenwächst. Klicken klappt die passenden Karteikarten auf.</p>';
   h += '<div class="tools"><input type="search" id="gq" placeholder="Suchen: Begriff oder Erklärung …" aria-label="Glossar durchsuchen">';
   h += '<button class="chip gfilter" data-f="all" data-color="#28425c">Alle</button>';
   MODULES.forEach(function(m){ h += '<button class="chip gfilter" data-f="'+m.id+'" data-color="'+m.color+'">'+m.n+" · "+esc(m.name.split(":")[0])+"</button>"; });
@@ -598,7 +603,9 @@ function renderExamEntry(){
         document.getElementById("again").addEventListener("click", renderExamEntry);
         return;
       }
-      app.innerHTML = '<span class="meta-line">Aufgabe '+(i+1)+"/"+order.length+'</span> <a class="backlink" href="#/pruefung" style="margin-left:12px">Abbrechen</a><div id="runnerArea"></div>';
+      app.innerHTML = '<span class="meta-line">Aufgabe '+(i+1)+"/"+order.length+'</span> <a class="backlink" href="#" id="abortExam" style="margin-left:12px">Abbrechen</a><div id="runnerArea"></div>';
+      // Der Hash steht schon auf #/pruefung – ein Link dorthin löst kein hashchange aus, also direkt abbrechen.
+      document.getElementById("abortExam").addEventListener("click", function(ev){ ev.preventDefault(); examFlow=null; renderExamEntry(); });
       openRunner(document.getElementById("runnerArea"), order[i], function(){ examFlow=null; renderExamEntry(); }, "← Abbrechen");
     }
     step();
