@@ -1,0 +1,23 @@
+Urheberrecht (c) 2026 Kramm
+
+Die Lerninhalte dieses Repositorys — Karteikarten, Glossarbegriffe,
+Aufgabenstellungen und alle Formulierungen in `data.js` und `exercises.js` —
+stehen unter der Creative-Commons-Lizenz
+
+  Namensnennung – Nicht kommerziell – Weitergabe unter gleichen Bedingungen
+  4.0 International (CC BY-NC-SA 4.0)
+
+Kurzfassung: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
+Vollständiger Lizenztext: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de
+
+Du darfst die Inhalte also verbreiten und bearbeiten, wenn du
+(a) die Urheberschaft nennst, (b) das Ergebnis nicht kommerziell nutzt und
+(c) Bearbeitungen unter dieselbe Lizenz stellst.
+
+Der Programmcode (`app.js`, `index.html`, `styles.css`) ist von dieser Lizenz
+mit umfasst; eine abweichende Nutzung des Codes ist auf Anfrage möglich.
+
+Hinweis: Die zugrunde liegenden Unterrichtsdokumente (Arbeitsblätter zum
+Analyseschema, zu den Bildsprachlichen Mitteln, zum Impressionismus und die
+Caillebotte-Analyse) sind bewusst NICHT Teil dieses Repositorys und bleiben in
+den Rechten ihrer jeweiligen Herausgeber.

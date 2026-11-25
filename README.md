@@ -65,4 +65,4 @@ Die App nutzt relative Pfade und Hash-Routing (`#/modul/m1/lernen`) und läuft d
 
 Die Inhalte wurden aus sieben Unterrichtsdokumenten erarbeitet (Analyseschema, Bildsprachliche Mittel, Farben und ihre Schreibweise, Bildanalyse-Formulierungshilfe, zwei Impressionismus-Dokumente, Caillebotte-Analyse). Die Formulierungen in `data.js` und `exercises.js` sind eigene Zusammenfassungen; die Original-Arbeitsblätter sind hier **nicht** enthalten.
 
-Eine Lizenz ist bislang nicht hinterlegt — damit bleibt die Nutzung der Inhalte dir vorbehalten. Falls du sie teilen willst, bietet sich für den Text `CC BY-NC-SA 4.0` und für den Code `MIT` an.
+Die Inhalte stehen unter **CC BY-NC-SA 4.0** (siehe `LICENSE`): verbreiten und bearbeiten erlaubt, mit Namensnennung, nicht kommerziell, Bearbeitungen unter derselben Lizenz. Für eine abweichende Nutzung des Codes frag nach.
