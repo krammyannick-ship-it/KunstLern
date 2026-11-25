@@ -15,10 +15,11 @@ Lern-Webapp zu **Bildanalyse, Farbe und Epochen** — erarbeitet aus sieben Unte
 | 3 | **Bildanalyse: Schema und Formulierungen** — Ablauf von den Rahmendaten bis zur Deutung, plus Satz-Baukasten | Modul 1+2 | 18 |
 | 4 | **Epochenwissen: Impressionismus** — Begriff, Merkmale, Themen, technische Voraussetzungen, Vertreter (ca. 1860–1905) | Modul 1–3 | 23 |
 | 5 | **Epochen erkennen: vergleichen und anwenden** — Realismus, Naturalismus, Expressionismus, abstrakte Kunst; woran du welche Epoche begründet unterscheidest | Modul 1–4 | 14 |
+| 6 | **Wortschatz: gut beschreiben und deuten** — Satzanfänge, Bildmittel-Verben, Wirkungs- und Farbwörter, Deutungs- und Schlusssätze | Modul 1–5 | 20 |
 
-Insgesamt **99 Karteikarten**, **73 Glossarbegriffe** und **34 Anwendungsaufgaben** (davon 8 in der gemischten Transfer-Prüfung).
+Insgesamt **119 Karteikarten**, **83 Glossarbegriffe** und **42 Anwendungsaufgaben** (davon 10 in der gemischten Transfer-Prüfung).
 
-**Kürzer und allgemeiner:** Jede Antwort umfasst maximal zwei Sätze (im Schnitt 97 Zeichen, keine über 140) und gilt für jedes Bild, nicht nur für ein Einzelwerk. Die Caillebotte-Analyse bleibt erhalten — sie steht jetzt als *Beispiel* im Epochenvergleich, nicht mehr als eigener Themenblock.
+**Kürzer und allgemeiner:** Jede Antwort umfasst maximal zwei Sätze (im Schnitt 101 Zeichen, keine über 140) und gilt für jedes Bild, nicht nur für ein Einzelwerk. Die Caillebotte-Analyse bleibt erhalten — sie steht jetzt als *Beispiel* im Epochenvergleich, nicht mehr als eigener Themenblock.
 
 Jedes Modul schaltet sich frei, wenn das vorige zu **50 % gelernt** ist — oder du schaltet über **„Alle Module frei schalten“** alles auf einmal.
 
@@ -37,8 +38,8 @@ Jedes Modul schaltet sich frei, wenn das vorige zu **50 % gelernt** ist — oder
 ```
 index.html      Einstieg, lädt die drei Skripte
 styles.css      Aussehen, responsiv (Mobile bis 390 px ohne Overflow)
-data.js         Module, 99 Karteikarten, 73 Glossarbegriffe
-exercises.js    34 Anwendungs- und Transferaufgaben
+data.js         Module, 119 Karteikarten, 83 Glossarbegriffe
+exercises.js    42 Anwendungs- und Transferaufgaben
 app.js          Routing, Leitner-Logik, Quiz, alle fünf Übungsformen, Glossar, Prüfung
 ```
 

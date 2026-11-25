@@ -188,6 +188,54 @@ DATA.exercises = [
  pool:["Expressionismus","abstrakt","Naturalismus","Realismus","Kubismus","Symbolismus"],
  why:"Farbwert, Gegenstandslosigkeit und Abbildtreue sind die drei schnellsten Trennmerkmale."},
 
+/* ================= Modul 6: Wortschatz ================= */
+{id:"e27", m:"m6", type:"sort",
+ q:"In welches Regal räumst du dieses Wort ein?",
+ buckets:["Licht","Pinselstrich","Wirkung","Deutung"],
+ items:[
+  {t:"flimmernd", b:0},
+  {t:"getupft", b:1},
+  {t:"luftig", b:2},
+  {t:"deutet darauf hin", b:3},
+  {t:"lichtdurchflutet", b:0},
+  {t:"skizzenhaft", b:1}
+ ],
+ why:"Vier Regale reichen: Licht, Strich, Wirkung, Deutung. In jedes passt ein gutes Wort."},
+
+{id:"e28", m:"m6", type:"mc",
+ q:"Welcher Satz ist eine gelungene Analyse-Aussage?",
+ opts:["Die Diagonale führt den Blick nach rechts und lässt das Bild dynamisch wirken.","Das Bild ist wunderschön und zeigt, dass der Maler sehr gut malen konnte.","Man sieht einen Fluss mit Bäumen, einem Boot und viel Grün im Hintergrund.","Das Bild gefällt mir sehr, weil es einfach gut gemacht ist."],
+ c:0, why:"Nur der erste Satz nennt Mittel, Vorgang und Wirkung – das ist die Formel jeder Analyse."},
+
+{id:"e29", m:"m6", type:"build",
+ q:"Baue aus den Bausteinen einen sauberen Wirkungssatz.",
+ chips:["Die kühlen Grautöne","lassen die Straße","verlassen und weit","wirken"],
+ why:"Immer dieselbe Formel: Mittel nennen, Vorgang sagen, Wirkung benennen."},
+
+{id:"e30", m:"m6", type:"cloze",
+ q:"Das Bild wirkt ___, weil der Maler das Licht ___ behandelt. Der Strich bleibt kurz und ___, die Konturen lösen sich auf.",
+ answers:["luftig","flimmernd","sichtbar"],
+ pool:["luftig","flimmernd","sichtbar","glatt","symmetrisch","dunkel"],
+ why:"Wirkung, Grund und Machart in einem Satz – so liest sich eine echte Analyse."},
+
+{id:"e31", m:"m6", type:"mc",
+ q:"Welches Wort passt zum impressionistischen Pinselstrich?",
+ opts:["getupft","lasiert","symmetrisch","standhaft"],
+ c:0, why:"Getupfte, kurze Striche sind typisch. Lasur legt Farbe dagegen glatt und unsichtbar übereinander."},
+
+{id:"e32", m:"m6", type:"sort",
+ q:"Vage Wertung oder belastbare Formulierung?",
+ buckets:["vage","begründet"],
+ items:[
+  {t:"Das Bild ist beeindruckend und sehr modern.", b:0},
+  {t:"Die angeschnittenen Figuren wirken zufällig wie ein Schnappschuss.", b:1},
+  {t:"Die Farben sind wunderschön.", b:0},
+  {t:"Die Schatten sind blau und violett gemalt, nicht grau.", b:1},
+  {t:"Der Maler war ausgesprochen begabt.", b:0},
+  {t:"Die helle Palette nimmt der Szene jede Schwere.", b:1}
+ ],
+ why:"Der Unterschied ist immer derselbe: Die gute Formulierung nennt ein Mittel und seine Wirkung."},
+
 /* ================= Transfer-Prüfung ================= */
 {id:"x1", m:"exam", type:"mc",
  q:"Ein Bild zeigt eine Person winzig am Fuß einer steilen Treppe, die nach oben führt. Welche Mittel erzeugen die Wirkung?",
@@ -236,5 +284,15 @@ DATA.exercises = [
 {id:"x8", m:"exam", type:"mc",
  q:"Ein Bild ist in wenigen Graublautönen mit feinen Abstufungen gemalt. Welches Malkonzept und welche Wirkung?",
  opts:["Valeuristisch – ruhig, zurückhaltend, sachlich","Koloristisch – leuchtend, kraftvoll, laut","Monochrom – aggressiv, spannungsvoll, laut","Expressiv – gefühlvoll, verzerrt, grell"],
- c:0, why:"Tonwerte weniger Farbtöne sind valeuristisch; die Wirkung ist ruhig und sachlich."}
+ c:0, why:"Tonwerte weniger Farbtöne sind valeuristisch; die Wirkung ist ruhig und sachlich."},
+
+{id:"x9", m:"exam", type:"mc",
+ q:"Du sollst ein impressionistisches Bild in einem Satz einordnen, ohne zu werten. Welcher Satz gelingt?",
+ opts:["Kurze, sichtbare Striche und eine helle Palette lassen den Augenblick flüchtig wirken.","Das Bild ist wunderschön und zeigt, dass der Maler sehr gut malen konnte.","Man sieht einen Fluss mit Bäumen, einem Boot und drei Figuren am Ufer.","Das Bild ist modern, weil es in die Moderne passt."],
+ c:0, why:"Mittel, Vorgang, Wirkung – ohne Wertung, ohne bloße Aufzählung und ohne zirkulierende Behauptung."},
+
+{id:"x10", m:"exam", type:"build",
+ q:"Baue die Überleitung von der Analyse zur Deutung zusammen.",
+ chips:["Die aufgelösten Konturen und die helle Palette","deuten darauf hin,","dass","der flüchtige Seheindruck","das eigentliche Thema ist"],
+ why:"„deuten darauf hin, dass …“ ist die Brücke: aus dem Befund wird eine begründete Lesart."}
 ];

@@ -42,6 +42,13 @@ DATA.modules = [
     builds:"Der Belastungstest: Du wendest Bildmittel, Schema und Epochenwissen gleichzeitig an.",
     src:"Analyse-Caillebotte.pdf · ergänztes Epochewnissen",
     color:"#6f9a84"
+  },
+  {
+    id:"m6", n:6, name:"Wortschatz: gut beschreiben und deuten",
+    sub:"Die richtigen Verben, Adjektive und Satzmuster – damit du ein Bild präzise beschreibst und sauber deutest.",
+    builds:"Der letzte Schritt: Was du in Modul 1 bis 5 erkennst, musst du in Worte fassen. Dafür ist hier das Vokabular.",
+    src:"Bildanalyse-Formulierungshilfe.pdf · ergänzender Wortschatz",
+    color:"#b4577a"
   }
 ];
 
@@ -155,7 +162,29 @@ DATA.cards = [
 {m:"m5", g:"Caillebotte", f:"Welche zwei gegensätzlichen Wirkungen hat dieses Bild?", b:"Kühl, leer und trist, zugleich aber belebt, elegant und alltäglich. Diesen Widerspruch kannst du gut begründen."},
 {m:"m5", g:"Caillebotte", f:"Wie begründest du das Bild als Impressionismus?", b:"Modernes Großstadtmotiv, lichte Palette, Erscheinungsfarbe und angeschnittene Figuren sprechen dafür."},
 {m:"m5", g:"Bildanalyse-Schema", f:"Welche drei Schritte gehst du bei einem unbekannten Bild zuerst?", b:"Rahmendaten klären, ersten Eindruck notieren, dann die vier Bildmittelbereiche der Reihe nach prüfen."},
-{m:"m5", g:"Interpretation", f:"Wie beendest du eine Analyse?", b:"Mit einem Fazit: Welche Merkmale überwiegen und wohin das Werk deshalb weist, auch wenn es gemischt ist."}
+{m:"m5", g:"Interpretation", f:"Wie beendest du eine Analyse?", b:"Mit einem Fazit: Welche Merkmale überwiegen und wohin das Werk deshalb weist, auch wenn es gemischt ist."},
+
+/* ===== Modul 6: Wortschatz ===== */
+{m:"m6", g:"Rahmendaten", f:"Womit beginnst du jede Bildanalyse?", b:"Mit dem Rahmensatz: „Das Gemälde … von … entstand … als Öl auf Leinwand.“ Titel, Künstler, Jahr und Technik genügen."},
+{m:"m6", g:"Erster Eindruck", f:"Wie leitest du zur Beschreibung über, ohne zu werten?", b:"Neutral: „Beim ersten Blick fällt … auf“ oder „Das Bild zeigt …“. Eine Deutung erst ganz am Schluss."},
+{m:"m6", g:"Bildort", f:"Mit welchen Wörtern sagst du, wo etwas im Bild liegt?", b:"Vorder-, Mittel- und Hintergrund, Bildmitte, Bildrand. Dazu „darüber“, „nah am Rand“, „diagonal von links unten nach rechts oben“."},
+{m:"m6", g:"Beschreibung", f:"Nenne drei Präzisionstricks für eine sachliche Beschreibung.", b:"Lage, Bereich, Menge und Größe nennen – und nichts ergänzen, was nicht zu sehen ist: „drei kleine Figuren links im Hintergrund“."},
+{m:"m6", g:"Bildmittel-Verben", f:"Welche Verben benutzt du statt „das Bild macht“?", b:"führen, lenken, gliedern, betonen, bündeln, auffangen, durchbrechen, steigern, zurücknehmen."},
+{m:"m6", g:"Mittel-Wirkungs-Regel", f:"Wie lautet der Kernsatz jeder Analyse?", b:"Mittel, Vorgang und Wirkung in einem Satz: „Die Diagonale führt den Blick nach rechts und wirkt dadurch dynamisch.“"},
+{m:"m6", g:"Farb-Verben", f:"Welche Verben passen zur Farbe?", b:"leuchten, aufhellen, trüben, abtönen, aufbrechen, kontrastieren, zurücknehmen, nebeneinander setzen."},
+{m:"m6", g:"Wirkungs-Wortschatz", f:"Welche Wörter benutzt du statt „das Bild ist schön“?", b:"Die Wirkung nennen: ruhig, gespannt, heiter, gedrängt, luftig, schwer, flüchtig, geschlossen oder kühl."},
+{m:"m6", g:"Wirkungs-Wortschatz", f:"Wie bindest du eine Wirkung an ihren Grund?", b:"Immer mit „dadurch, dass“, „indem“ oder „weil“: „Die kühlen Grautöne lassen die Szene verlassen wirken.“"},
+{m:"m6", g:"Wirkungs-Wortschatz", f:"Welche Nomen taugen für die Gesamtwirkung?", b:"Stimmung, Anmutung, Geschlossenheit, Ruhe, Unruhe, Leichtigkeit, Enge, Weite und Flüchtigkeit."},
+{m:"m6", g:"Lichtwörter", f:"Mit welchen Wörtern beschreibst du impressionistisches Licht?", b:"lichtdurchflutet, flimmernd, schimmernd, sonnig, hell aufgelöst, von oben beschienen, tönig beleuchtet."},
+{m:"m6", g:"Pinselduktus", f:"Wie beschreibst du den impressionistischen Pinselstrich?", b:"kurz, sichtbar, unverbunden, getupft, skizzenhaft, pastos, diagonal gesetzt – niemals glatt verwischt."},
+{m:"m6", g:"Farbwörter", f:"Welche Wörter passen zur impressionistischen Farbigkeit?", b:"hell, heiter, silbrig, perlend, pastellig, komplementär gesetzt, die Schatten in Blau und Violett."},
+{m:"m6", g:"Momentanheit", f:"Mit welchen Wörtern benennst du den flüchtigen Moment?", b:"Augenblick, Seheindruck, das Unfertige, Zufälligkeit, eben erst gesehen, wirkend wie ein Schnappschuss."},
+{m:"m6", g:"Luft- und Raumwörter", f:"Wie beschreibst du Luft und Raum in einem impressionistischen Bild?", b:"luftig, dunstige Ferne, flimmernde Atmosphäre, aufgelöste Konturen, scharf nur im Vordergrund."},
+{m:"m6", g:"Wirkungs-Wortschatz", f:"Nenne fünf Adjektive für ein impressionistisches Bild, ohne „schön“ zu sagen.", b:"lebendig, flüchtig, licht, heiter, luftig. Jedes davon kannst du an ein Mittel zurückbinden."},
+{m:"m6", g:"Deutungsformel", f:"Wie überleitest du von der Analyse zur Deutung?", b:"„Diese Mittel deuten darauf hin, dass …“ oder „Daraus ergibt sich …“. Aus dem Befund wird so eine begründete Lesart."},
+{m:"m6", g:"Schlusssatz", f:"Welche Wörter gehören in den Schlusssatz?", b:"„Zusammen genommen zeigt das Bild …“, „Damit wird … sichtbar“, „Es steht damit zwischen … und …“."},
+{m:"m6", g:"Vage Wertung", f:"Welche Formulierungen schaden deiner Analyse?", b:"Vage Wertungen ohne Grund: schön, interessant, gut gemalt, ausdrucksstark, modern. Sie behaupten, statt zu belegen."},
+{m:"m6", g:"Vage Wertung", f:"Was machst du aus dem Satz „Das Bild ist traurig“?", b:"Du nennst den Grund: „Die kühlen Grautöne und die leere Straße wirken verlassen.“ Wirkung immer ans Mittel binden."}
 ];
 
 /* ---------- Glossar (Begriff → Erklärung, mit Modul-Querlinks) ---------- */
@@ -198,14 +227,14 @@ DATA.glossary = [
   {t:"Valeurismus", d:"Tonwertiges Malkonzept in wenigen Farbtönen; ruhig, zurückhaltend, sachlich.", m:"m2", also:["m5"]},
   {t:"Lasurtechnik", d:"Viele dünne, durchscheinende Schichten; ruhige Oberfläche ohne sichtbaren Duktus.", m:"m2", also:["m5"]},
   {t:"Primamalerei", d:"Ein Auftrag in einem Gang, deckend bis pastos, ohne Vorzeichnung.", m:"m2", also:["m4"]},
-  {t:"Pinselduktus", d:"Die sichtbare Handschrift des Pinselstrichs; im Impressionismus bewusst sichtbar.", m:"m2", also:["m4"]},
+  {t:"Pinselduktus", d:"Die sichtbare Handschrift des Pinselstrichs; im Impressionismus bewusst sichtbar.", m:"m2", also:["m4","m6"]},
   {t:"Farbnamen schreiben", d:"Adjektiv klein (ist rot), Nomen groß (die Farbe Rot), zwei Farbtöne mit Bindestrich (blau-rot).", m:"m2", also:[]},
   /* Modul 3 */
   {t:"Bildanalyse-Schema", d:"Rahmendaten, Beschreibung, Analyse der Mittel mit Wirkung, Interpretation.", m:"m3", also:["m5"]},
-  {t:"Rahmendaten", d:"Titel, Künstler, Jahr, Ort, Maße, Format, Technik, Genre und Bildmotiv im Einleitungssatz.", m:"m3", also:["m5"]},
-  {t:"Beschreibung", d:"Nur das Sichtbare, ohne Wertung, vom Wesentlichen zum Detail, nach Bildbereichen gegliedert.", m:"m3", also:["m5"]},
-  {t:"Erster Eindruck", d:"Die subjektive Wirkung am Anfang; sie wird in der Analyse bestätigt oder relativiert.", m:"m3", also:["m5"]},
-  {t:"Mittel-Wirkungs-Regel", d:"Kernregel: jedes genannte Mittel wird mit seiner Wirkung verknüpft. Sonst ist es keine Analyse.", m:"m3", also:["m1","m5"]},
+  {t:"Rahmendaten", d:"Titel, Künstler, Jahr, Ort, Maße, Format, Technik, Genre und Bildmotiv im Einleitungssatz.", m:"m3", also:["m5","m6"]},
+  {t:"Beschreibung", d:"Nur das Sichtbare, ohne Wertung, vom Wesentlichen zum Detail, nach Bildbereichen gegliedert.", m:"m3", also:["m5","m6"]},
+  {t:"Erster Eindruck", d:"Die subjektive Wirkung am Anfang; sie wird in der Analyse bestätigt oder relativiert.", m:"m3", also:["m5","m6"]},
+  {t:"Mittel-Wirkungs-Regel", d:"Kernregel: jedes genannte Mittel wird mit seiner Wirkung verknüpft. Sonst ist es keine Analyse.", m:"m3", also:["m1","m5","m6"]},
   {t:"Analyse", d:"Schritt 2: Mittel benennen und deuten, in den Abschnitten Farbe, Motiv, Komposition, Linie, Körper/Raum/Licht.", m:"m3", also:[]},
   {t:"Interpretation", d:"Schritt 3: Deutung aus den Fakten plus Rückbezug und Hintergrundwissen.", m:"m3", also:["m5"]},
   {t:"Ikonizitätsgrad", d:"Grad der Naturtreue, gemessen an der Illusion von Körper, Raum und Stofflichkeit.", m:"m3", also:["m5"]},
@@ -217,7 +246,7 @@ DATA.glossary = [
   {t:"Impressionismus", d:"Stilrichtung ca. 1860–1905: helle Palette, sichtbarer Strich, Freilichtmalerei, flüchtige Momente.", m:"m4", also:["m5"]},
   {t:"Namensgebung", d:"Monets „Impression, soleil levant“ von 1872 wurde 1874 durch Leroys Kritik zum Epochennamen.", m:"m4", also:["m5"]},
   {t:"Salonsystem", d:"Der Pariser Salon entschied über Anerkennung; abgelehnte Künstler stellten ab 1874 selbst aus.", m:"m4", also:["m5"]},
-  {t:"Momentanheit", d:"Das Festhalten des flüchtigen Seheindrucks samt Atmosphäre, ohne Detailtreue.", m:"m4", also:["m5"]},
+  {t:"Momentanheit", d:"Das Festhalten des flüchtigen Seheindrucks samt Atmosphäre, ohne Detailtreue.", m:"m4", also:["m5","m6"]},
   {t:"Pleinairmalerei", d:"Malen im Freien vor dem Motiv – Grundlage der schnellen impressionistischen Arbeit.", m:"m4", also:["m5"]},
   {t:"Palettenaufhellung", d:"Helle, reine Farben und fast kein Schwarz; Abkehr von der dunklen Hell-Dunkel-Malerei.", m:"m4", also:["m5"]},
   {t:"Anschnitt", d:"Der Bildrand schneidet durch Motive; wirkt zufällig wie ein Schnappschuss.", m:"m4", also:["m5"]},
@@ -237,7 +266,18 @@ DATA.glossary = [
   {t:"Naturalismus", d:"Steigerung des Realismus: möglichst objektive, fotgenaue Abbildung, ca. 1870–1900.", m:"m5", also:["m4"]},
   {t:"Expressionismus", d:"Farbgewaltige, verzerrte Malerei als Ausdruck von Gefühlen, ca. 1905–1925.", m:"m5", also:["m2"]},
   {t:"Abstrakte Kunst", d:"Malerei ohne Gegenstand; Farbe, Form und Linie sind selbst das Bild.", m:"m5", also:["m2"]},
-  {t:"Caillebotte", d:"Gustave Caillebotte (1848–1894) malt moderne Großstadt, aber glatt und detailliert – zwischen den Stilen.", m:"m5", also:["m4"]}
+  {t:"Caillebotte", d:"Gustave Caillebotte (1848–1894) malt moderne Großstadt, aber glatt und detailliert – zwischen den Stilen.", m:"m5", also:["m4"]},
+/* Modul 6 */
+  {t:"Bildort", d:"Präzise Ortsangaben im Bild: Vorder-, Mittel- und Hintergrund, Bildmitte, Bildrand, diagonal.", m:"m6", also:["m3"]},
+  {t:"Bildmittel-Verben", d:"Verben, die ein Mittel in Aktion zeigen: führen, lenken, gliedern, betonen, auffangen, durchbrechen.", m:"m6", also:["m1","m3"]},
+  {t:"Farb-Verben", d:"Verben für Farbbefunde: leuchten, aufhellen, trüben, abtönen, kontrastieren, zurücknehmen.", m:"m6", also:["m2"]},
+  {t:"Wirkungs-Wortschatz", d:"Wörter für die Wirkung statt der Wertung: ruhig, gespannt, heiter, luftig, flüchtig, geschlossen.", m:"m6", also:["m3"]},
+  {t:"Lichtwörter", d:"Wörter für Licht im Bild: lichtdurchflutet, flimmernd, schimmernd, hell aufgelöst, tönig.", m:"m6", also:["m4"]},
+  {t:"Farbwörter", d:"Wörter für impressionistische Farbe: hell, heiter, silbrig, perlend, pastellig, Schatten in Blau.", m:"m6", also:["m4"]},
+  {t:"Luft- und Raumwörter", d:"Wörter für Raum und Luft: luftig, dunstige Ferne, flimmernde Atmosphäre, aufgelöste Konturen.", m:"m6", also:["m4"]},
+  {t:"Deutungsformel", d:"Satzmuster für die Deutung: „Diese Mittel deuten darauf hin, dass …“", m:"m6", also:["m3"]},
+  {t:"Schlusssatz", d:"Letzter Satz der Analyse: bündelt die Befunde und ordnet das Werk ein.", m:"m6", also:["m3"]},
+  {t:"Vage Wertung", d:"Urteil ohne Grund – schön, interessant, gut gemalt. Kostet Punkte, weil es nichts belegt.", m:"m6", also:["m3"]},
 ];
 
 /* Stabile Karten-Ids: sie hängen am Fragetext, nicht an der Position in der Liste.
