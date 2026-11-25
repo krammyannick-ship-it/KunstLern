@@ -49,6 +49,13 @@ DATA.modules = [
     builds:"Der letzte Schritt: Was du in Modul 1 bis 5 erkennst, musst du in Worte fassen. Dafür ist hier das Vokabular.",
     src:"Bildanalyse-Formulierungshilfe.pdf · ergänzender Wortschatz",
     color:"#b4577a"
+  },
+  {
+    id:"m7", n:7, name:"Monet datieren: Frühwerk, Reifewerk, Spätwerk",
+    sub:"Wie du ein Monet-Bild zeitlich einordnest – über Palette, Strich, Bildidee und Motiv, von 1840 bis 1926.",
+    builds:"Der Zeit-Test: aus der Epochenzuordnung wird eine Datierung, weil sich Monets Malweise über 60 Jahre sichtbar wandelt.",
+    src:"Ergänzt: Monets Werkschau 1840–1926 · Impressionismus.pdf",
+    color:"#8a5a2e"
   }
 ];
 
@@ -184,7 +191,31 @@ DATA.cards = [
 {m:"m6", g:"Deutungsformel", f:"Wie überleitest du von der Analyse zur Deutung?", b:"„Diese Mittel deuten darauf hin, dass …“ oder „Daraus ergibt sich …“. Aus dem Befund wird so eine begründete Lesart."},
 {m:"m6", g:"Schlusssatz", f:"Welche Wörter gehören in den Schlusssatz?", b:"„Zusammen genommen zeigt das Bild …“, „Damit wird … sichtbar“, „Es steht damit zwischen … und …“."},
 {m:"m6", g:"Vage Wertung", f:"Welche Formulierungen schaden deiner Analyse?", b:"Vage Wertungen ohne Grund: schön, interessant, gut gemalt, ausdrucksstark, modern. Sie behaupten, statt zu belegen."},
-{m:"m6", g:"Vage Wertung", f:"Was machst du aus dem Satz „Das Bild ist traurig“?", b:"Du nennst den Grund: „Die kühlen Grautöne und die leere Straße wirken verlassen.“ Wirkung immer ans Mittel binden."}
+{m:"m6", g:"Vage Wertung", f:"Was machst du aus dem Satz „Das Bild ist traurig“?", b:"Du nennst den Grund: „Die kühlen Grautöne und die leere Straße wirken verlassen.“ Wirkung immer ans Mittel binden."},
+
+/* ===== Modul 7: Monet datieren ===== */
+{m:"m7", g:"Monet", f:"Welche Lebensdaten hat Monet?", b:"Claude Monet, 1840 in Paris geboren, 1926 in Giverny gestorben. Sein Werk umfasst rund 60 Jahre."},
+{m:"m7", g:"Monet-Zeitleiste", f:"Welche vier Daten sind die wichtigsten Anker zum Datieren?", b:"1872 „Impression, soleil levant“, 1883 Umzug nach Giverny, ab 1890 Serienbilder, ab 1914 die großen Seerosenbahnen."},
+{m:"m7", g:"Frühwerk", f:"Wer hat Monets Frühwerk geprägt?", b:"Das Atelier Gleyre ab 1862, dazu Courbet, Boudin und die Freilichtmaler von Barbizon. Deshalb malt er dunkel und schwer."},
+{m:"m7", g:"Giverny", f:"Warum datiert oft schon der Ort?", b:"Jeder Ort ist eine Lebensphase: Le Havre, Honfleur und Étaples, dann Paris und Argenteuil, ab 1883 Giverny."},
+{m:"m7", g:"Frühwerk", f:"Woran erkennst du ein Monet-Bild der 1860er Jahre?", b:"Dunkle Palette mit Schwarz und Braungrau, dicker Farbauftrag, Motiv im Atelier oder nach Barbizon. Fast kein Licht."},
+{m:"m7", g:"La Grenouillère", f:"Was ändert sich um 1869 an seinem Malstil?", b:"Kurzer, gebrochener Strich und Wasserreflexe: 1869 malt er mit Renoir auf der „La Grenouillère“. Das ist der Sprung zum Impressionismus."},
+{m:"m7", g:"Argenteuil", f:"Woran erkennst du die 1870er Jahre?", b:"Lichte, hohe Palette, kurzer Kommastrich, Motive der Freizeit: Regatten, Boote, Boulevards. Fast kein Schwarz mehr."},
+{m:"m7", g:"Serienmalerei", f:"Was ist an den Bildserien ab 1890 neu?", b:"Dasselbe Motiv bei wechselndem Licht, Dutzende Leinwände: „Meules“ (1890–91) und die „Kathedrale von Rouen“ (1892–93)."},
+{m:"m7", g:"Londonbilder", f:"Welche Motive weisen nach 1899?", b:"Nebel und Ruß von London: die Charing-Cross-Brücke ab 1899, das Parlament ab 1900. Ab 1908 kommt Venedig dazu."},
+{m:"m7", g:"Seerosen", f:"Wie datierst du späte Seerosenbilder?", b:"Kein Horizont, kein Mittelpunkt, nur Reflexe auf der Wasseroberfläche. Das Motiv ab den 1890ern, großformatig ab 1914."},
+{m:"m7", g:"Datierungsspuren", f:"Nach welchen vier Spuren datierst du ein Monet-Bild?", b:"Palette, Strich, Bildidee (Einzelbild oder Serie) und Motiv. Zwei davon genügen für eine begründete Zeitspanne."},
+{m:"m7", g:"Serienmalerei", f:"Welche Spur trennt die 1870er am sichersten von den 1890ern?", b:"Die Serienidee: ein helles Einzelbild weist in die 1870er, mehrere Fassungen eines Motivs in die Zeit ab 1890."},
+{m:"m7", g:"Spätwerk", f:"Wann endet für Monet der Impressionismus?", b:"Bis etwa 1880 zählt der flüchtige Seheindruck. Ab 1890 bestimmt die Serie das Bild – das reicht über den Impressionismus hinaus."},
+{m:"m7", g:"Monet-Zeitleiste", f:"Wozu helfen Biografie und Zeitgeschichte beim Datieren?", b:"Sie geben die Grenzen vor: 1870/71 Flucht nach London, 1883 Giverny, 1914 die großen Bahnen, 1923 die Staroperation."},
+{m:"m7", g:"Datierungsformel", f:"Wie formulierst du eine Datierung in der Klausur?", b:"Zwei Merkmale plus Zeitspanne: „Wegen der lichten Palette und des Einzelbildes stammt es aus den 1870er Jahren.“"},
+{m:"m7", g:"Namensgebung", f:"In welche Zeit gehört „Impression, soleil levant“?", b:"Im Oktober 1872 in Le Havre gemalt, 1874 ausgestellt: Hafennebel, runde Sonne, kaum angedeutete Formen."},
+{m:"m7", g:"Londonbilder", f:"Wie ordnest du die „Themse unterhalb der London Bridge“ ein?", b:"1871 in London gemalt, noch in gedämpften Tönen und dichtem Dunst – ein Werk des Übergangs."},
+{m:"m7", g:"Frühwerk", f:"Wann entstand „Frauen im Garten“ (Femmes au jardin)?", b:"1866, noch im Atelier gemalt: schwarze Figuren vor dunklem Grün. Eine klare Frühwerk-Zuordnung."},
+{m:"m7", g:"Serienmalerei", f:"Warum malte Monet die Kathedrale von Rouen so oft?", b:"1892–93 in etwa 30 Fassungen: morgens, mittags, abends. Das wechselnde Licht ist das Thema, nicht das Bauwerk."},
+{m:"m7", g:"Spätwerk", f:"Womit datierst du Seerosenbilder mit roten und violetten Tönen?", b:"Auf die späten Jahre: Monets Sehkraft ließ nach, 1923 ließ er den Star operieren. Die Töne werden röter, der Strich breiter."},
+{m:"m7", g:"Seerosen", f:"Welches Format verrät das Spätwerk?", b:"Ab 1914 malt er rund zwei Meter hohe Bahnen für die großen Seerosen-Paneele. Solche Größen hatte er vorher nie gemalt."},
+{m:"m7", g:"Datierungsspuren", f:"Wie grenzt du „Regattatag in Argenteuil“ von den „Heuhaufen“ ab?", b:"Argenteuil ist ein helles Einzelbild der 1870er mit Booten. Die Heuhaufen von 1890–91 sind eine Serie desselben Feldes."}
 ];
 
 /* ---------- Glossar (Begriff → Erklärung, mit Modul-Querlinks) ---------- */
@@ -243,8 +274,8 @@ DATA.glossary = [
   {t:"Bildmotiv", d:"Das Thema der Darstellung; die Wahl löst Assoziationen und Stimmungen aus.", m:"m3", also:["m5"]},
   {t:"Formulierungsbaukasten", d:"Bewährte Satzmuster für Einleitung, Beschreibung, Analyse und Deutung.", m:"m3", also:["m5"]},
   /* Modul 4 */
-  {t:"Impressionismus", d:"Stilrichtung ca. 1860–1905: helle Palette, sichtbarer Strich, Freilichtmalerei, flüchtige Momente.", m:"m4", also:["m5"]},
-  {t:"Namensgebung", d:"Monets „Impression, soleil levant“ von 1872 wurde 1874 durch Leroys Kritik zum Epochennamen.", m:"m4", also:["m5"]},
+  {t:"Impressionismus", d:"Stilrichtung ca. 1860–1905: helle Palette, sichtbarer Strich, Freilichtmalerei, flüchtige Momente.", m:"m4", also:["m5","m7"]},
+  {t:"Namensgebung", d:"Monets „Impression, soleil levant“ von 1872 wurde 1874 durch Leroys Kritik zum Epochennamen.", m:"m4", also:["m5","m7"]},
   {t:"Salonsystem", d:"Der Pariser Salon entschied über Anerkennung; abgelehnte Künstler stellten ab 1874 selbst aus.", m:"m4", also:["m5"]},
   {t:"Momentanheit", d:"Das Festhalten des flüchtigen Seheindrucks samt Atmosphäre, ohne Detailtreue.", m:"m4", also:["m5","m6"]},
   {t:"Pleinairmalerei", d:"Malen im Freien vor dem Motiv – Grundlage der schnellen impressionistischen Arbeit.", m:"m4", also:["m5"]},
@@ -253,7 +284,7 @@ DATA.glossary = [
   {t:"Offene Form", d:"Konturen lösen sich zugunsten der Farbe auf und fordern die Sehleistung des Betrachters.", m:"m4", also:["m5"]},
   {t:"Gegenwartsbezug", d:"Motive des modernen Lebens statt Geschichte und Religion.", m:"m4", also:["m5"]},
   {t:"Haussmannisierung", d:"Der Umbau von Paris zur Großstadt mit Boulevards – Bildthema des Impressionismus.", m:"m4", also:["m5"]},
-  {t:"Serienmalerei", d:"Dasselbe Motiv im wechselnden Licht; Thema ist die Lichtstimmung selbst.", m:"m4", also:[]},
+  {t:"Serienmalerei", d:"Dasselbe Motiv im wechselnden Licht; Thema ist die Lichtstimmung selbst.", m:"m4", also:["m7"]},
   {t:"Technische Voraussetzungen", d:"Farben in Tuben, transportable Staffeleien, fertige Keilrahmen – Basis der Freilichtmalerei.", m:"m4", also:["m5"]},
   {t:"Rivière-Formel", d:"Man male den Gegenstand um der Farben willen: Die Behandlung wird wichtiger als das Motiv.", m:"m4", also:["m5"]},
   {t:"Berthe Morisot", d:"Berthe Morisot (1841–1895), impressionistische Malerin von Familie, Interieur und Porträts.", m:"m4", also:[]},
@@ -267,7 +298,7 @@ DATA.glossary = [
   {t:"Expressionismus", d:"Farbgewaltige, verzerrte Malerei als Ausdruck von Gefühlen, ca. 1905–1925.", m:"m5", also:["m2"]},
   {t:"Abstrakte Kunst", d:"Malerei ohne Gegenstand; Farbe, Form und Linie sind selbst das Bild.", m:"m5", also:["m2"]},
   {t:"Caillebotte", d:"Gustave Caillebotte (1848–1894) malt moderne Großstadt, aber glatt und detailliert – zwischen den Stilen.", m:"m5", also:["m4"]},
-/* Modul 6 */
+  /* Modul 6 */
   {t:"Bildort", d:"Präzise Ortsangaben im Bild: Vorder-, Mittel- und Hintergrund, Bildmitte, Bildrand, diagonal.", m:"m6", also:["m3"]},
   {t:"Bildmittel-Verben", d:"Verben, die ein Mittel in Aktion zeigen: führen, lenken, gliedern, betonen, auffangen, durchbrechen.", m:"m6", also:["m1","m3"]},
   {t:"Farb-Verben", d:"Verben für Farbbefunde: leuchten, aufhellen, trüben, abtönen, kontrastieren, zurücknehmen.", m:"m6", also:["m2"]},
@@ -278,6 +309,18 @@ DATA.glossary = [
   {t:"Deutungsformel", d:"Satzmuster für die Deutung: „Diese Mittel deuten darauf hin, dass …“", m:"m6", also:["m3"]},
   {t:"Schlusssatz", d:"Letzter Satz der Analyse: bündelt die Befunde und ordnet das Werk ein.", m:"m6", also:["m3"]},
   {t:"Vage Wertung", d:"Urteil ohne Grund – schön, interessant, gut gemalt. Kostet Punkte, weil es nichts belegt.", m:"m6", also:["m3"]},
+  /* Modul 7 */
+  {t:"Monet", d:"Claude Monet (1840–1926), Maler des Impressionismus; sein Werk spannt rund 60 Jahre.", m:"m7", also:["m4"]},
+  {t:"Monet-Zeitleiste", d:"Vier Anker: 1872 „Impression“, 1883 Giverny, ab 1890 Serien, ab 1914 große Seerosenbahnen.", m:"m7", also:["m5"]},
+  {t:"Frühwerk", d:"Bis etwa 1868: dunkle Palette, dicker Auftrag, Schwarz und Braungrau, gemalt im Atelier.", m:"m7", also:["m4"]},
+  {t:"La Grenouillère", d:"Freizeitinsel bei Paris, 1869 mit Renoir gemalt: gebrochener Strich und Reflexe – Tür zum Impressionismus.", m:"m7", also:["m4"]},
+  {t:"Argenteuil", d:"Wohnort 1871–1878; Boote, Regatten und Boulevards in lichter Palette stehen für die 1870er.", m:"m7", also:["m4"]},
+  {t:"Giverny", d:"Monets Heimat ab 1883 mit dem späteren Wassergarten; jeder Wohnort datiert seine Bilder mit.", m:"m7", also:["m4"]},
+  {t:"Seerosen", d:"„Nymphéas“-Motiv: reine Wasserfläche ohne Horizont, ab den 1890ern, ab 1914 im großen Format.", m:"m7", also:["m4"]},
+  {t:"Spätwerk", d:"Ab etwa 1914: große Formate, breiter Strich, rötere und violettere Töne nach der Staroperation.", m:"m7", also:[]},
+  {t:"Datierungsspuren", d:"Vier Spuren für die Datierung: Palette, Strich, Bildidee (Einzelbild oder Serie) und Motiv.", m:"m7", also:["m5"]},
+  {t:"Datierungsformel", d:"Zwei Spuren plus Zeitspanne: „Wegen … und … stammt das Werk aus den 1870er Jahren.“", m:"m7", also:["m5"]},
+  {t:"Londonbilder", d:"London-Motive zweimal: 1871 die Themse, ab 1899 Brücken und Parlament in Nebel und Ruß.", m:"m7", also:["m4"]},
 ];
 
 /* Stabile Karten-Ids: sie hängen am Fragetext, nicht an der Position in der Liste.

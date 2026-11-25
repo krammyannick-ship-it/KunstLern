@@ -236,6 +236,46 @@ DATA.exercises = [
  ],
  why:"Der Unterschied ist immer derselbe: Die gute Formulierung nennt ein Mittel und seine Wirkung."},
 
+/* ================= Modul 7: Monet datieren ================= */
+{id:"e33", m:"m7", type:"order",
+ q:"Bringe Monets Stationen in die richtige zeitliche Reihenfolge.",
+ items:["Étaples und Honfleur im Dunst von Barbizon","La Grenouillère mit Renoir (1869)","Argenteuil: Boote und Regatten (ab 1871)","Meules und Rouen als Serien (ab 1890)","London in Nebel und Ruß (ab 1899)","Riesige Seerosenbahnen (ab 1914)"],
+ why:"Wer diese sechs Stationen kennt, datiert jedes Monet-Bild mit zwei Merkmalen."},
+
+{id:"e34", m:"m7", type:"sort",
+ q:"Welches Merkmal weist in welche Schaffenszeit?",
+ buckets:["Frühwerk bis 1868","1870er Jahre","ab 1890","Spätwerk ab 1914"],
+ items:[
+  {t:"Schwarz und Braungrau beherrschen das Bild", b:0},
+  {t:"Boote, Regatten und Freizeit in lichter Luft", b:1},
+  {t:"dasselbe Motiv in vielen Fassungen", b:2},
+  {t:"nur Wasserfläche, ohne Horizont und Mittelpunkt", b:3},
+  {t:"dicker Farbauftrag, im Atelier gemalt", b:0},
+  {t:"kurzer Kommastrich mit hellen Reflexen", b:1}
+ ],
+ why:"Vier Zeitfenster, je zwei Signamente – damit lässt sich jede Datierung begründen."},
+
+{id:"e35", m:"m7", type:"mc",
+ q:"Ein Monet zeigt Heuhaufen in rotem Abendlicht; das Feld füllt fast die ganze Bildfläche. Welche Zeit?",
+ opts:["Um 1890–91, die Zeit der Serienbilder","Um 1866, die Zeit der dunklen Atelierarbeit","Um 1872, die Zeit der ersten Hafennebel","Um 1920, die Zeit der späten Seerosenbahnen"],
+ c:0, why:"Serie, rotes Abendlicht und ein Feld ohne Figuren – das sind die „Meules“ von 1890–91."},
+
+{id:"e36", m:"m7", type:"cloze",
+ q:"Ein helles Einzelbild mit Booten entsteht in ___ ; die ___ desselben Motivs beginnen ab 1890, die großen ___ ab 1914.",
+ answers:["Argenteuil","Serien","Seerosenbahnen"],
+ pool:["Argenteuil","Serien","Seerosenbahnen","London","Venedig","Atelier"],
+ why:"Ort, Serienidee und Spätwerk – drei Begriffe tragen fast jede Monet-Datierung."},
+
+{id:"e37", m:"m7", type:"build",
+ q:"Baue den Begründungssatz zur Datierung zusammen.",
+ chips:["Wegen der lichten Palette","und des einzelnen Motivs","stammt das Werk","aus den 1870er Jahren"],
+ why:"Zwei Spuren, eine Zeitspanne – so liest sich eine saubere Datierung."},
+
+{id:"e38", m:"m7", type:"mc",
+ q:"Warum zählt „La Grenouillère“ (1869) schon zum Impressionismus?",
+ opts:["Gebrochener kurzer Strich, Wasserreflexe, Malen im Freien","Dunkle Erdfarben und dicker Farbauftrag","Eine systematische Reihe desselben Motivs","Riesiges Format ohne Horizont"],
+ c:0, why:"Hier trifft sich alles: helles Freizeitmotiv, gebrochener Strich, Freilichtmalerei."},
+
 /* ================= Transfer-Prüfung ================= */
 {id:"x1", m:"exam", type:"mc",
  q:"Ein Bild zeigt eine Person winzig am Fuß einer steilen Treppe, die nach oben führt. Welche Mittel erzeugen die Wirkung?",
@@ -294,5 +334,23 @@ DATA.exercises = [
 {id:"x10", m:"exam", type:"build",
  q:"Baue die Überleitung von der Analyse zur Deutung zusammen.",
  chips:["Die aufgelösten Konturen und die helle Palette","deuten darauf hin,","dass","der flüchtige Seheindruck","das eigentliche Thema ist"],
- why:"„deuten darauf hin, dass …“ ist die Brücke: aus dem Befund wird eine begründete Lesart."}
+ why:"„deuten darauf hin, dass …“ ist die Brücke: aus dem Befund wird eine begründete Lesart."},
+
+{id:"x11", m:"exam", type:"mc",
+ q:"Ein Monet zeigt nur schillernde Wasserfläche – kein Ufer, kein Mittelpunkt. Wie datierst du?",
+ opts:["Späte Seerosenbilder: Motiv ab den 1890ern, großformatig ab 1914","Frühwerk um 1866, noch dunkel und im Atelier gemalt","Londonbilder um 1900, in Nebel und Ruß getaucht","Serien um 1892, dasselbe Motiv in wechselndem Licht"],
+ c:0, why:"Ohne Horizont und ohne Bildmittelpunkt bleibt die reine Reflexfläche – das ist das späte Seerosenwerk."},
+
+{id:"x12", m:"exam", type:"sort",
+ q:"Was spricht bei diesem Monet für welche Zeit?",
+ buckets:["1860er","1870er","1890er","nach 1900"],
+ items:[
+  {t:"Schwarz dominiert, im Atelier gemalt", b:0},
+  {t:"Boote und Regatten in lichter Luft", b:1},
+  {t:"etwa 30 Fassungen einer Kathedrale", b:2},
+  {t:"Brücken im Nebel und Venedig-Motive", b:3},
+  {t:"dicker Farbauftrag, Anklänge an Courbet", b:0},
+  {t:"Gleise und Dampf im Bahnhof Saint-Lazare", b:1}
+ ],
+ why:"Vier Zeiträume, je zwei Spuren – so wird aus einem Eindruck eine begründete Datierung."}
 ];
