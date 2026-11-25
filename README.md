@@ -53,11 +53,13 @@ python -m http.server 8000
 
 Dein Fortschritt liegt ausschließlich im Browser (localStorage-Key `kunst-lernpfad-v1`). Es werden **keine** Daten hochgeladen, keine Analysen geladen, keine externen Ressourcen nachgeladen.
 
-## Auf GitHub veröffentlichen
+## Auf GitHub
 
-1. **Repository anlegen** (Name z. B. `kunst-lernpfad`), diese fünf Dateien plus `README.md`, `.gitignore`, `.gitattributes`, `.nojekyll` hochladen — per Drag-and-drop über die GitHub-Weboberfläche oder per `git`.
-2. **Pages aktivieren:** *Settings → Pages → Source: „Deploy from a branch“ → Branch: `main` / `/(root)` → Save.*
-3. Nach dem Build ist die App unter `https://<dein-name>.github.io/kunst-lernpfad/` erreichbar.
+Das Repository liegt auf `https://github.com/krammyannick-ship-it/KunstLern` (Branch `main`).
+
+1. **Pages aktivieren:** *Settings → Pages → Source: „Deploy from a branch“ → Branch: `main` / `/(root)` → Save.*
+2. Nach dem Build läuft die App unter `https://krammyannick-ship-it.github.io/KunstLern/`.
+3. **Aktualisieren** nach jeder Änderung: `git add -A` → `git commit -m "…" ` → `git push`.
 
 Die App nutzt relative Pfade und Hash-Routing (`#/modul/m1/lernen`) und läuft deshalb auch im Unterpfad einer GitHub-Pages-Site ohne Anpassung.
 
